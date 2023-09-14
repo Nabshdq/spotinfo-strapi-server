@@ -1,0 +1,1 @@
+"# spotinfo-strapi-server" 
