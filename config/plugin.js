@@ -7,9 +7,9 @@ module.exports = ({ env }) => ({
         config: {
             provider: 'cloudinary',
             providerOptions: {
-                cloud_name: env('CLOUDINARY_NAME'),
-                api_key: env('CLOUDINARY_KEY'),
-                api_secret: env('CLOUDINARY_SECRET'),
+                cloud_name: env('dg2wam4gd'),
+                api_key: env('244181458272427'),
+                api_secret: env('_TINPo_EGirT0u6-0COFIQKjieE'),
             },
             actionOptions: {
                 upload: {},
@@ -18,18 +18,5 @@ module.exports = ({ env }) => ({
         },
     },
     // ...
-});
-
-module.exports = ({ env }) => ({
-    "vercel-deploy": {
-        enabled: true,
-        config: {
-            deployHook: process.env.VERCEL_DEPLOY_PLUGIN_HOOK,
-            apiToken: process.env.VERCEL_DEPLOY_PLUGIN_API_TOKEN,
-            appFilter: process.env.VERCEL_DEPLOY_PLUGIN_APP_FILTER,
-            teamFilter: process.env.VERCEL_DEPLOY_PLUGIN_TEAM_FILTER,
-            roles: ["strapi-super-admin"],
-        },
-    },
 });
 
